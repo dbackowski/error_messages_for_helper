@@ -1,0 +1,33 @@
+ErrorMessagesForHelper
+================
+
+Rails 3.0.x error_messages_for_helper plugin.
+
+
+Example
+=======
+
+<%= form_for :test, :url => {:action => 'create'}, :html => {:method => :post} do |f| %>
+<%= error_messages_for :test %>
+  <%= f.text_field :name %>
+  <%= f.text_field :age %>
+<% end %>
+
+When @test.errors is not empty then output for error_messages_for will be:
+
+<div class="errorExplanation" id="errorExplanation">
+  <h2>Unable to save data.</h2>
+  <p>Errors list:</p>
+  <ul>
+    <li>Can't be empty</li>
+    <li>Must be integer</li>
+  <li>
+</div>
+
+For custom messages in your locale put this section:
+
+error_messages_for:
+  header_message: 'Unable to save data.'
+  error_list: 'Errors list:'
+
+Copyright (c) 2011 [Damian Baćkowski], released under the MIT license
