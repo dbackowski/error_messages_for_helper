@@ -14,7 +14,7 @@ module ErrorMessagesForHelper
       result = content_tag :h2, t(:header_message, :scope => 'error_messages_for', :default => 'Unable to save data.').html_safe 
       result << content_tag(:p, t(:error_list, :scope => 'error_messages_for', :default => 'Errors list:').html_safe)
       result << errors_list
-      result = content_tag :div, result, :id => 'errorExplanation', :class => 'errorExplanation'
+      result = content_tag :div, result, :id => 'error_explanation'
     end
   end
 end

@@ -15,7 +15,7 @@ Example
 
 When @test.errors is not empty then output for error_messages_for will be:
 
-<div class="errorExplanation" id="errorExplanation">
+<div class="error_explanation">
   <h2>Unable to save data.</h2>
   <p>Errors list:</p>
   <ul>
