@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'error_messages_for_helper'
-  gem.version = '1.0'
+  gem.version = '1.0.1'
   gem.date    = Time.now.strftime('%Y-%m-%d')
   
   gem.summary = "Active Record error messages helper for Rails 3.0.x"
