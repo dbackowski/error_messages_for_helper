@@ -30,9 +30,11 @@ When @test.errors is not empty error_messages_for will output:
 
 For custom messages in your locale put this section:
 
+```ruby
 error_messages_for:
   header_message: 'Unable to save data.'
   error_list: 'Errors list:'
+```
 
 You can set global CSS class by html_options:
 
