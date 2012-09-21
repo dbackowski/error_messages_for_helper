@@ -2,12 +2,11 @@
 
 Rails 3.2.x error_messages_for_helper plugin.
 
-
 ### Example ###
 
 ```ruby
 <%= form_for :test, :url => {:action => 'create'}, :html => {:method => :post} do |f| %>
-<%= error_messages_for :test %>
+  <%= error_messages_for :test %>
   <%= f.text_field :name %>
   <%= f.text_field :age %>
 <% end %>
