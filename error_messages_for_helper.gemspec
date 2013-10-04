@@ -2,8 +2,9 @@
 
 Gem::Specification.new do |gem|
   gem.name    = 'error_messages_for_helper'
-  gem.version = '1.1.0'
+  gem.version = '1.1.1'
   gem.date    = Time.now.strftime('%Y-%m-%d')
+  gem.license = 'MIT'
 
   gem.summary = "Active Record error messages helper for Rails 3.2.x"
   gem.description = "error_messages_for_helper provides a simple helper to show ActiveRecord validation errors (just like old helper error_messages_for for Rails-2.3.x)."
