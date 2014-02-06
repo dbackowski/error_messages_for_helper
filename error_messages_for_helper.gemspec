@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
 
   gem.author  = 'Damian Baćkowski'
   gem.email    = 'damianbackowski@gmail.com'
-  gem.homepage = 'https://github.com/paki-paki/error_messages_for_helper'
+  gem.homepage = 'https://github.com/dbackowski/error_messages_for_helper'
 
   gem.rubyforge_project = nil
   gem.has_rdoc = false
